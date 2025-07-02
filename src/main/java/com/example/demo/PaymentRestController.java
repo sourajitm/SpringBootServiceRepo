@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/payment")
 public class PaymentRestController {
-
+ 
+	
+	//comment added
          @Autowired
          private CartRestConsumer consumer;  // HAS-A
 
