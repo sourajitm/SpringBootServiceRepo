@@ -18,6 +18,6 @@ public class PaymentRestController {
 
          @GetMapping("/data")
          public String getPaymentData() {
-                return "FROM PAYMENT-SERVICE : " + consumer.getCartInfo();
+                return "FROM PAYMENT-SERVICE ::: " + consumer.getCartInfo();
          }
 }
